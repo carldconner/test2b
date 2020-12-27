@@ -8,4 +8,4 @@ def index(response):
     return HttpResponse("<H1>You have reached page 1</H1>")
 
 def v1(response):
-    return HttpResponse("<H1>You are looking at an unauthorized view!</H1>")
+    return HttpResponse("<H3>You are looking at an unauthorized view!</H3>")
