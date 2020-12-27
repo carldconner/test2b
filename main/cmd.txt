@@ -1,5 +1,4 @@
-Microsoft Windows [Version 10.0.18363.1256]
-(c) 2019 Microsoft Corporation. All rights reserved.
+
 
 C:\Users\getca>pip install django
 Collecting django
@@ -18,73 +17,19 @@ Successfully installed asgiref-3.3.1 django-3.1.4 pytz-2020.5 sqlparse-0.4.1
 WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
 You should consider upgrading via the 'c:\users\getca\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
 
-C:\Users\getca>ls
-'ls' is not recognized as an internal or external command,
-operable program or batch file.
-
-C:\Users\getca>dir
- Volume in drive C is Acer
- Volume Serial Number is 1A13-381E
-
- Directory of C:\Users\getca
-
-12/20/2020  11:45 AM    <DIR>          .
-12/20/2020  11:45 AM    <DIR>          ..
-12/19/2020  05:41 PM               208 .gitconfig
-12/20/2020  11:45 AM    <DIR>          .thumbnails
-12/19/2020  04:47 PM    <DIR>          .vscode
-12/20/2020  09:29 AM    <DIR>          3D Objects
-12/19/2020  09:32 PM    <DIR>          ansel
-12/27/2020  01:11 PM    <DIR>          Code
-12/20/2020  09:29 AM    <DIR>          Contacts
-12/01/2020  07:09 PM    <DIR>          Documents
-12/20/2020  09:29 AM    <DIR>          Downloads
-12/20/2020  09:29 AM    <DIR>          Favorites
-12/20/2020  09:29 AM    <DIR>          Links
-12/20/2020  09:29 AM    <DIR>          Music
-12/27/2020  10:56 AM    <DIR>          OneDrive
-12/20/2020  09:29 AM    <DIR>          Saved Games
-12/20/2020  09:29 AM    <DIR>          Searches
-12/20/2020  09:29 AM    <DIR>          Videos
-               1 File(s)            208 bytes
-              17 Dir(s)  186,643,312,640 bytes free
 
 C:\Users\getca>cd code
 
 C:\Users\getca\Code>cd test2
 
-C:\Users\getca\Code\Test2>django -admin startproject test2
-'django' is not recognized as an internal or external command,
-operable program or batch file.
 
 C:\Users\getca\Code\Test2>django-admin startproject test2
 
-C:\Users\getca\Code\Test2>dir
- Volume in drive C is Acer
- Volume Serial Number is 1A13-381E
 
- Directory of C:\Users\getca\Code\Test2
-
-12/27/2020  01:14 PM    <DIR>          .
-12/27/2020  01:14 PM    <DIR>          ..
-12/27/2020  01:14 PM    <DIR>          test2
-               0 File(s)              0 bytes
-               3 Dir(s)  186,637,238,272 bytes free
 
 C:\Users\getca\Code\Test2>cd test2
 
-C:\Users\getca\Code\Test2\test2>dir
- Volume in drive C is Acer
- Volume Serial Number is 1A13-381E
 
- Directory of C:\Users\getca\Code\Test2\test2
-
-12/27/2020  01:14 PM    <DIR>          .
-12/27/2020  01:14 PM    <DIR>          ..
-12/27/2020  01:14 PM               683 manage.py
-12/27/2020  01:14 PM    <DIR>          test2
-               1 File(s)            683 bytes
-               3 Dir(s)  186,637,242,368 bytes free
 
 C:\Users\getca\Code\Test2\test2>python manage.py runserver
 Watching for file changes with StatReloader
