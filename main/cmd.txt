@@ -1,0 +1,196 @@
+Microsoft Windows [Version 10.0.18363.1256]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\getca>pip install django
+Collecting django
+  Downloading Django-3.1.4-py3-none-any.whl (7.8 MB)
+     |████████████████████████████████| 7.8 MB 2.2 MB/s
+Collecting asgiref<4,>=3.2.10
+  Downloading asgiref-3.3.1-py3-none-any.whl (19 kB)
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB ...
+Collecting pytz
+  Downloading pytz-2020.5-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB ...
+Installing collected packages: asgiref, sqlparse, pytz, django
+Successfully installed asgiref-3.3.1 django-3.1.4 pytz-2020.5 sqlparse-0.4.1
+WARNING: You are using pip version 20.2.3; however, version 20.3.3 is available.
+You should consider upgrading via the 'c:\users\getca\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
+
+C:\Users\getca>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\getca>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 1A13-381E
+
+ Directory of C:\Users\getca
+
+12/20/2020  11:45 AM    <DIR>          .
+12/20/2020  11:45 AM    <DIR>          ..
+12/19/2020  05:41 PM               208 .gitconfig
+12/20/2020  11:45 AM    <DIR>          .thumbnails
+12/19/2020  04:47 PM    <DIR>          .vscode
+12/20/2020  09:29 AM    <DIR>          3D Objects
+12/19/2020  09:32 PM    <DIR>          ansel
+12/27/2020  01:11 PM    <DIR>          Code
+12/20/2020  09:29 AM    <DIR>          Contacts
+12/01/2020  07:09 PM    <DIR>          Documents
+12/20/2020  09:29 AM    <DIR>          Downloads
+12/20/2020  09:29 AM    <DIR>          Favorites
+12/20/2020  09:29 AM    <DIR>          Links
+12/20/2020  09:29 AM    <DIR>          Music
+12/27/2020  10:56 AM    <DIR>          OneDrive
+12/20/2020  09:29 AM    <DIR>          Saved Games
+12/20/2020  09:29 AM    <DIR>          Searches
+12/20/2020  09:29 AM    <DIR>          Videos
+               1 File(s)            208 bytes
+              17 Dir(s)  186,643,312,640 bytes free
+
+C:\Users\getca>cd code
+
+C:\Users\getca\Code>cd test2
+
+C:\Users\getca\Code\Test2>django -admin startproject test2
+'django' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\getca\Code\Test2>django-admin startproject test2
+
+C:\Users\getca\Code\Test2>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 1A13-381E
+
+ Directory of C:\Users\getca\Code\Test2
+
+12/27/2020  01:14 PM    <DIR>          .
+12/27/2020  01:14 PM    <DIR>          ..
+12/27/2020  01:14 PM    <DIR>          test2
+               0 File(s)              0 bytes
+               3 Dir(s)  186,637,238,272 bytes free
+
+C:\Users\getca\Code\Test2>cd test2
+
+C:\Users\getca\Code\Test2\test2>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 1A13-381E
+
+ Directory of C:\Users\getca\Code\Test2\test2
+
+12/27/2020  01:14 PM    <DIR>          .
+12/27/2020  01:14 PM    <DIR>          ..
+12/27/2020  01:14 PM               683 manage.py
+12/27/2020  01:14 PM    <DIR>          test2
+               1 File(s)            683 bytes
+               3 Dir(s)  186,637,242,368 bytes free
+
+C:\Users\getca\Code\Test2\test2>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:17:01
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[27/Dec/2020 13:17:24] "GET / HTTP/1.1" 200 16351
+[27/Dec/2020 13:17:24] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[27/Dec/2020 13:17:24] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[27/Dec/2020 13:17:24] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[27/Dec/2020 13:17:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[27/Dec/2020 13:17:24] "GET /favicon.ico HTTP/1.1" 404 1971
+
+C:\Users\getca\Code\Test2\test2>python manage.py startapp main
+
+C:\Users\getca\Code\Test2\test2>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:19:53
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[27/Dec/2020 13:20:02] "GET / HTTP/1.1" 200 16351
+[27/Dec/2020 13:20:02] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[27/Dec/2020 13:20:02] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[27/Dec/2020 13:20:02] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[27/Dec/2020 13:20:02] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[27/Dec/2020 13:20:04] "GET / HTTP/1.1" 200 16351
+C:\Users\getca\Code\Test2\test2\test2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:40:44
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\getca\Code\Test2\test2\test2\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:42:44
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[27/Dec/2020 13:42:51] "GET / HTTP/1.1" 200 23
+C:\Users\getca\Code\Test2\test2\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:43:57
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\getca\Code\Test2\test2\main\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:45:52
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Not Found: /va
+[27/Dec/2020 13:46:18] "GET /va HTTP/1.1" 404 2269
+[27/Dec/2020 13:46:24] "GET /v1 HTTP/1.1" 301 0
+[27/Dec/2020 13:46:24] "GET /v1/ HTTP/1.1" 200 15
+[27/Dec/2020 13:46:35] "GET / HTTP/1.1" 200 23
+C:\Users\getca\Code\Test2\test2\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2020 - 13:47:29
+Django version 3.1.4, using settings 'test2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\getca\Code\Test2\test2>
